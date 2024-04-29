@@ -1,0 +1,111 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+   
+    background-color: hsl(0, 100%, 74%) ;
+    background-image: url(./images/bg-intro-desktop.png);
+    position: absolute;
+
+}
+.overall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    
+}
+.overall-left{
+    width: 350px;
+    color: white;
+}
+.overall-left p{
+    width: 370px;
+
+}
+.right-top{
+    background-color:  hsl(248, 32%, 49%);
+    width: 420px;
+    height: 40px;
+    color: white;
+    border-radius: 8px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    padding-top: 13px;
+
+}
+.right-bottom{
+    width: 420px;
+    height: 380px;
+    background-color: white;
+    border-radius: 10px;
+
+
+}
+.right-top label{
+   margin-left: 70px;
+ padding-top: 10px;
+
+}
+#in1{
+    width: 350px;
+    height: 40px;
+    border: solid 1px grey;
+    margin-left: 33px;
+    margin-top: 30px;
+}
+#in2{
+    width: 350px;
+    height: 40px;
+    border: solid 1px grey;
+    margin-left: 33px;
+    margin-top: 15px;
+}
+#in3{
+    width: 350px;
+    height: 40px;
+    border: solid 1px grey;
+    margin-left: 33px;
+    margin-top: 15px;
+}
+#in4{
+    width: 350px;
+    height: 40px;
+    border: solid 1px grey;
+    margin-left: 33px;
+    margin-top: 15px;
+}
+.right-bottom button{
+    width: 350px;
+    height: 40px;
+     background-color: hsl(154, 59%, 51%);
+     margin-left: 33px;
+     margin-top: 15px;
+     border:hsl(154, 59%, 51%);
+     color: white;
+
+}
+.right-bottom span{
+   font-size: 10px;
+
+}
+.sp1{
+    margin-left: 70px;
+    color: gray;
+}
+.sp2{
+    color: red;
+}
+.right-bottom p{
+    height: 10px;
+    margin: 0;
+    text-align: end;
+    margin-right: 40px;
+    color: red;
+    font-size: 12px;
+}
